@@ -1,5 +1,5 @@
-# Hearthstone-Webscrapping
-Hearthstone Web scrapping Project.
+# Hearthstone-Webscraping
+Hearthstone Web scraping Project.
 
 Objective:
 
@@ -9,11 +9,11 @@ Stakeholders: Members of Blizzard’s Hearthstone balancing team, content creato
 
 Data Collection:
 
- Data is scrapped in Python via Jupyter Notebooks ultizing BeautifulSoup and Selenium libraries. Scrapping does not violate and terms and conditions as I will not be selling any collected data, all data scrapped is public access and does not require a personalized login. Terms and conditions of sites scrapped as well as laws in both Canada and the U.S were thoroughly investigated to ensure no violations were to be made. 
+Data is scraped in Python via Jupyter Notebooks ultizing BeautifulSoup and Selenium libraries. Scraping does not violate and terms and conditions as I will not be selling any collected data, all data scraped is public access and does not require a personalized login. Terms and conditions of sites scraped as well as laws in both Canada and the U.S were thoroughly investigated to ensure no violations were to be made. 
 
 Tools Used:
 
-  Jupyter Notebooks for Python web scrapping and csv writing. 
+  Jupyter Notebooks for Python web scraping and csv writing. 
   Microsoft Excel for importation of csv sheets and data cleaning.
   Tableau Public for visualizations and insights.
 
