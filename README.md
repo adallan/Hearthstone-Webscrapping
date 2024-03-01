@@ -17,16 +17,14 @@ Tools Used:
 
 Python data gathering process and Excel data cleaning:
 
-Had python write data into two different csv, one for each website. 
-Follow the link for a detailed Python code base:  
-https://github.com/adallan/Hearthstone-Webscraping/blob/main/Hearthstone%20Webscraping.ipynb
+I used python write data into two different csv, one for each website. 
+See here for [detailed Python code base](https://github.com/adallan/Hearthstone-Webscraping/blob/main/Hearthstone%20Webscraping.ipynb)
 
 Imported csv with ratings into a sheet then imported card statistics csv into the 2nd page of the excel file. I duplicated the rating column since it contained both ratings and votes. Used Find&Replace to clean all columns and VLOOKUP to move all statistical data over from the second sheet, making sure the formula makes card names match up. Conditional formatting to highlight null value rows to remove as well as extra card name column. Data sets are imported into Tableau for visualization. 
 
-Follow the link here to view the interactive dashboard:
-https://public.tableau.com/app/profile/alexander.allan/viz/HearthstoneExpansiondashboard/HearthstoneLatestExpansion
+Follow the link here to view the [interactive dashboard](https://public.tableau.com/app/profile/alexander.allan/viz/HearthstoneExpansiondashboard/HearthstoneLatestExpansion)
 
-Insights and Recommendations:
+## Insights and Recommendations:
 
 To improve player logins, retention and overall game balance I would recommend the following based on insights found from this project.
 1) “Astalor Bloodsworn” is an incredibly popular card and is an extreme outlier in being most played, in most decks, consistently above-average win rate. All these indicate that it card quality is too high. I would recommend reducing its impact and sway on the game but not by extreme values to keep it relevant.
